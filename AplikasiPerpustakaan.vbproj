@@ -73,11 +73,29 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdminMasterForm.Designer.vb">
+      <DependentUpon>AdminMasterForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AdminMasterForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CariBukuForm.Designer.vb">
+      <DependentUpon>CariBukuForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CariBukuForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Form1.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.vb">
       <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDaftarBuku.Designer.vb">
+      <DependentUpon>FormDaftarBuku.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormDaftarBuku.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormRegister.Designer.vb">
@@ -103,8 +121,17 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="AdminMasterForm.resx">
+      <DependentUpon>AdminMasterForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CariBukuForm.resx">
+      <DependentUpon>CariBukuForm.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDaftarBuku.resx">
+      <DependentUpon>FormDaftarBuku.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormRegister.resx">
       <DependentUpon>FormRegister.vb</DependentUpon>
