@@ -30,6 +30,8 @@ Partial Class AdminMasterForm
         Me.PenggunaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ProfileToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.PeminjamanToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.PengembalianToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -55,17 +57,18 @@ Partial Class AdminMasterForm
         'DaftarBukuToolStripMenuItem1
         '
         Me.DaftarBukuToolStripMenuItem1.Name = "DaftarBukuToolStripMenuItem1"
-        Me.DaftarBukuToolStripMenuItem1.Size = New System.Drawing.Size(180, 22)
+        Me.DaftarBukuToolStripMenuItem1.Size = New System.Drawing.Size(136, 22)
         Me.DaftarBukuToolStripMenuItem1.Text = "Daftar Buku"
         '
         'CariBukuToolStripMenuItem
         '
         Me.CariBukuToolStripMenuItem.Name = "CariBukuToolStripMenuItem"
-        Me.CariBukuToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.CariBukuToolStripMenuItem.Size = New System.Drawing.Size(136, 22)
         Me.CariBukuToolStripMenuItem.Text = "Cari Buku"
         '
         'TransaksiToolStripMenuItem
         '
+        Me.TransaksiToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.PeminjamanToolStripMenuItem, Me.PengembalianToolStripMenuItem})
         Me.TransaksiToolStripMenuItem.Name = "TransaksiToolStripMenuItem"
         Me.TransaksiToolStripMenuItem.Size = New System.Drawing.Size(67, 20)
         Me.TransaksiToolStripMenuItem.Text = "Transaksi"
@@ -90,6 +93,18 @@ Partial Class AdminMasterForm
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(800, 387)
         Me.Panel1.TabIndex = 2
+        '
+        'PeminjamanToolStripMenuItem
+        '
+        Me.PeminjamanToolStripMenuItem.Name = "PeminjamanToolStripMenuItem"
+        Me.PeminjamanToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.PeminjamanToolStripMenuItem.Text = "Peminjaman"
+        '
+        'PengembalianToolStripMenuItem
+        '
+        Me.PengembalianToolStripMenuItem.Name = "PengembalianToolStripMenuItem"
+        Me.PengembalianToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.PengembalianToolStripMenuItem.Text = "Pengembalian"
         '
         'AdminMasterForm
         '
@@ -116,4 +131,6 @@ Partial Class AdminMasterForm
     Friend WithEvents DaftarBukuToolStripMenuItem1 As ToolStripMenuItem
     Friend WithEvents CariBukuToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents Panel1 As Panel
+    Friend WithEvents PeminjamanToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents PengembalianToolStripMenuItem As ToolStripMenuItem
 End Class

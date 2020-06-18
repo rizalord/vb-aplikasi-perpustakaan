@@ -18,4 +18,8 @@
     Private Sub AdminMasterForm_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         SwitchPanel(FormDaftarBuku)
     End Sub
+
+    Private Sub PeminjamanToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles PeminjamanToolStripMenuItem.Click
+        SwitchPanel(FormTransaksi)
+    End Sub
 End Class

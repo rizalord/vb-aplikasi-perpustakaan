@@ -14,3 +14,4 @@ D:\Belajar\visual basic\AplikasiPerpustakaan\obj\Debug\AplikasiPerpustakaan.Form
 D:\Belajar\visual basic\AplikasiPerpustakaan\obj\Debug\AplikasiPerpustakaan.AdminMasterForm.resources
 D:\Belajar\visual basic\AplikasiPerpustakaan\obj\Debug\AplikasiPerpustakaan.CariBukuForm.resources
 D:\Belajar\visual basic\AplikasiPerpustakaan\obj\Debug\AplikasiPerpustakaan.FormDaftarBuku.resources
+D:\Belajar\visual basic\AplikasiPerpustakaan\obj\Debug\AplikasiPerpustakaan.FormTransaksi.resources
