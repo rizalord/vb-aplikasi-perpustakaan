@@ -15,3 +15,4 @@ D:\Belajar\visual basic\AplikasiPerpustakaan\obj\Debug\AplikasiPerpustakaan.Admi
 D:\Belajar\visual basic\AplikasiPerpustakaan\obj\Debug\AplikasiPerpustakaan.CariBukuForm.resources
 D:\Belajar\visual basic\AplikasiPerpustakaan\obj\Debug\AplikasiPerpustakaan.FormDaftarBuku.resources
 D:\Belajar\visual basic\AplikasiPerpustakaan\obj\Debug\AplikasiPerpustakaan.FormTransaksi.resources
+D:\Belajar\visual basic\AplikasiPerpustakaan\obj\Debug\AplikasiPerpustakaan.FormTransaksiPengembalian.resources

@@ -22,4 +22,8 @@
     Private Sub PeminjamanToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles PeminjamanToolStripMenuItem.Click
         SwitchPanel(FormTransaksi)
     End Sub
+
+    Private Sub PengembalianToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles PengembalianToolStripMenuItem.Click
+        SwitchPanel(FormTransaksiPengembalian)
+    End Sub
 End Class

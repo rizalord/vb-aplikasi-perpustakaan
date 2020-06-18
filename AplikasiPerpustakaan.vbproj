@@ -110,6 +110,12 @@
     <Compile Include="FormTransaksi.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="FormTransaksiPengembalian.Designer.vb">
+      <DependentUpon>FormTransaksiPengembalian.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormTransaksiPengembalian.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -144,6 +150,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormTransaksi.resx">
       <DependentUpon>FormTransaksi.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTransaksiPengembalian.resx">
+      <DependentUpon>FormTransaksiPengembalian.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
