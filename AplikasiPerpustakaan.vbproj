@@ -92,6 +92,12 @@
       <DependentUpon>Form1.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="FormAdministration.Designer.vb">
+      <DependentUpon>FormAdministration.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormAdministration.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="FormDaftarBuku.Designer.vb">
       <DependentUpon>FormDaftarBuku.vb</DependentUpon>
     </Compile>
@@ -141,6 +147,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAdministration.resx">
+      <DependentUpon>FormAdministration.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormDaftarBuku.resx">
       <DependentUpon>FormDaftarBuku.vb</DependentUpon>
