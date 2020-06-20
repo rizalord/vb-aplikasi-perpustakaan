@@ -26,4 +26,12 @@
     Private Sub PengembalianToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles PengembalianToolStripMenuItem.Click
         SwitchPanel(FormTransaksiPengembalian)
     End Sub
+
+    Private Sub PenggunaToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles PenggunaToolStripMenuItem.Click
+        SwitchPanel(FormAdministration)
+    End Sub
+
+    Private Sub ProfileToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ProfileToolStripMenuItem.Click
+        SwitchPanel(FormProfile)
+    End Sub
 End Class

@@ -104,6 +104,12 @@
     <Compile Include="FormDaftarBuku.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="FormProfile.Designer.vb">
+      <DependentUpon>FormProfile.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormProfile.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="FormRegister.Designer.vb">
       <DependentUpon>FormRegister.vb</DependentUpon>
     </Compile>
@@ -154,6 +160,9 @@
     <EmbeddedResource Include="FormDaftarBuku.resx">
       <DependentUpon>FormDaftarBuku.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormProfile.resx">
+      <DependentUpon>FormProfile.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormRegister.resx">
       <DependentUpon>FormRegister.vb</DependentUpon>
     </EmbeddedResource>
@@ -187,6 +196,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="assets\close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\49712569.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

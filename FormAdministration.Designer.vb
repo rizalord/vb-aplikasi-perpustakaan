@@ -23,12 +23,12 @@ Partial Class FormAdministration
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.Panel2 = New System.Windows.Forms.Panel()
-        Me.Panel3 = New System.Windows.Forms.Panel()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.Panel2 = New System.Windows.Forms.Panel()
         Me.TextBox3 = New System.Windows.Forms.TextBox()
         Me.TextBox4 = New System.Windows.Forms.TextBox()
+        Me.Panel3 = New System.Windows.Forms.Panel()
         Me.TextBox5 = New System.Windows.Forms.TextBox()
         Me.TextBox6 = New System.Windows.Forms.TextBox()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
@@ -57,25 +57,16 @@ Partial Class FormAdministration
         Me.Panel1.Size = New System.Drawing.Size(158, 91)
         Me.Panel1.TabIndex = 0
         '
-        'Panel2
+        'TextBox2
         '
-        Me.Panel2.BackColor = System.Drawing.Color.LightBlue
-        Me.Panel2.Controls.Add(Me.TextBox3)
-        Me.Panel2.Controls.Add(Me.TextBox4)
-        Me.Panel2.Location = New System.Drawing.Point(450, 12)
-        Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(158, 91)
-        Me.Panel2.TabIndex = 1
-        '
-        'Panel3
-        '
-        Me.Panel3.BackColor = System.Drawing.Color.LightBlue
-        Me.Panel3.Controls.Add(Me.TextBox5)
-        Me.Panel3.Controls.Add(Me.TextBox6)
-        Me.Panel3.Location = New System.Drawing.Point(614, 12)
-        Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(158, 91)
-        Me.Panel3.TabIndex = 1
+        Me.TextBox2.BackColor = System.Drawing.Color.LightBlue
+        Me.TextBox2.ForeColor = System.Drawing.Color.Black
+        Me.TextBox2.Location = New System.Drawing.Point(25, 48)
+        Me.TextBox2.Name = "TextBox2"
+        Me.TextBox2.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox2.TabIndex = 1
+        Me.TextBox2.Text = "10"
+        Me.TextBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TextBox1
         '
@@ -89,16 +80,15 @@ Partial Class FormAdministration
         Me.TextBox1.Text = "Total User"
         Me.TextBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'TextBox2
+        'Panel2
         '
-        Me.TextBox2.BackColor = System.Drawing.Color.LightBlue
-        Me.TextBox2.ForeColor = System.Drawing.Color.Black
-        Me.TextBox2.Location = New System.Drawing.Point(25, 48)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox2.TabIndex = 1
-        Me.TextBox2.Text = "10"
-        Me.TextBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.Panel2.BackColor = System.Drawing.Color.LightBlue
+        Me.Panel2.Controls.Add(Me.TextBox3)
+        Me.Panel2.Controls.Add(Me.TextBox4)
+        Me.Panel2.Location = New System.Drawing.Point(450, 12)
+        Me.Panel2.Name = "Panel2"
+        Me.Panel2.Size = New System.Drawing.Size(158, 91)
+        Me.Panel2.TabIndex = 1
         '
         'TextBox3
         '
@@ -122,6 +112,16 @@ Partial Class FormAdministration
         Me.TextBox4.TabIndex = 2
         Me.TextBox4.Text = "Total Book"
         Me.TextBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Panel3
+        '
+        Me.Panel3.BackColor = System.Drawing.Color.LightBlue
+        Me.Panel3.Controls.Add(Me.TextBox5)
+        Me.Panel3.Controls.Add(Me.TextBox6)
+        Me.Panel3.Location = New System.Drawing.Point(614, 12)
+        Me.Panel3.Name = "Panel3"
+        Me.Panel3.Size = New System.Drawing.Size(158, 91)
+        Me.Panel3.TabIndex = 1
         '
         'TextBox5
         '
@@ -240,7 +240,7 @@ Partial Class FormAdministration
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
-        Me.ClientSize = New System.Drawing.Size(784, 351)
+        Me.ClientSize = New System.Drawing.Size(784, 359)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.TextBox8)
         Me.Controls.Add(Me.TextBox7)
@@ -255,6 +255,7 @@ Partial Class FormAdministration
         Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.Panel1)
         Me.ForeColor = System.Drawing.Color.Black
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "FormAdministration"
         Me.Text = "FormAdministration"
         Me.Panel1.ResumeLayout(False)
