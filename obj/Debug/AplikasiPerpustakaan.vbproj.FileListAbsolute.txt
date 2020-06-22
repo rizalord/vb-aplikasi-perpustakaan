@@ -20,3 +20,4 @@ D:\Belajar\visual basic\AplikasiPerpustakaan\obj\Debug\AplikasiPerpustakaan.Form
 D:\Belajar\visual basic\AplikasiPerpustakaan\obj\Debug\AplikasiPerpustakaan.FormProfile.resources
 D:\Belajar\visual basic\AplikasiPerpustakaan\obj\Debug\AplikasiPerpustakaan.FormPinjamBuku.resources
 D:\Belajar\visual basic\AplikasiPerpustakaan\obj\Debug\AplikasiPerpustakaan.UserMasterForm.resources
+D:\Belajar\visual basic\AplikasiPerpustakaan\obj\Debug\AplikasiPerpustakaan.FormKembalikanBuku.resources

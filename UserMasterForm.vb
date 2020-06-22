@@ -14,4 +14,8 @@
     Private Sub PinjamBukuToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles PinjamBukuToolStripMenuItem.Click
         SwitchPanel(FormPinjamBuku)
     End Sub
+
+    Private Sub KembalikanBukuToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles KembalikanBukuToolStripMenuItem.Click
+        SwitchPanel(FormKembalikanBuku)
+    End Sub
 End Class
