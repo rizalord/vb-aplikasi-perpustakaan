@@ -104,6 +104,12 @@
     <Compile Include="FormDaftarBuku.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="FormPinjamBuku.Designer.vb">
+      <DependentUpon>FormPinjamBuku.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormPinjamBuku.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="FormProfile.Designer.vb">
       <DependentUpon>FormProfile.vb</DependentUpon>
     </Compile>
@@ -126,6 +132,12 @@
       <DependentUpon>FormTransaksiPengembalian.vb</DependentUpon>
     </Compile>
     <Compile Include="FormTransaksiPengembalian.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserMasterForm.Designer.vb">
+      <DependentUpon>UserMasterForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserMasterForm.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -160,6 +172,9 @@
     <EmbeddedResource Include="FormDaftarBuku.resx">
       <DependentUpon>FormDaftarBuku.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormPinjamBuku.resx">
+      <DependentUpon>FormPinjamBuku.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormProfile.resx">
       <DependentUpon>FormProfile.vb</DependentUpon>
     </EmbeddedResource>
@@ -177,6 +192,9 @@
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserMasterForm.resx">
+      <DependentUpon>UserMasterForm.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
