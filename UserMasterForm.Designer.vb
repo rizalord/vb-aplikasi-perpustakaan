@@ -51,13 +51,13 @@ Partial Class UserMasterForm
         'PinjamBukuToolStripMenuItem
         '
         Me.PinjamBukuToolStripMenuItem.Name = "PinjamBukuToolStripMenuItem"
-        Me.PinjamBukuToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.PinjamBukuToolStripMenuItem.Size = New System.Drawing.Size(166, 22)
         Me.PinjamBukuToolStripMenuItem.Text = "Pinjam Buku"
         '
         'KembalikanBukuToolStripMenuItem
         '
         Me.KembalikanBukuToolStripMenuItem.Name = "KembalikanBukuToolStripMenuItem"
-        Me.KembalikanBukuToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.KembalikanBukuToolStripMenuItem.Size = New System.Drawing.Size(166, 22)
         Me.KembalikanBukuToolStripMenuItem.Text = "Kembalikan Buku"
         '
         'ProfileToolStripMenuItem

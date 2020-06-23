@@ -18,4 +18,13 @@
     Private Sub KembalikanBukuToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles KembalikanBukuToolStripMenuItem.Click
         SwitchPanel(FormKembalikanBuku)
     End Sub
+
+    Private Sub ProfileToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ProfileToolStripMenuItem.Click
+        SwitchPanel(FormProfileUser)
+    End Sub
+
+    Private Sub LogoutToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles LogoutToolStripMenuItem.Click
+        Me.Visible = False
+        Form1.Visible = True
+    End Sub
 End Class
